@@ -14,15 +14,17 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var temperamentLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var textView: UIView!
     var breed:Cat?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         nameLabel.text = breed?.name
         temperamentLabel.text = breed?.temperament
         descriptionLabel.text = breed?.description
+        
+        textView.layer.cornerRadius = 20
         
         imageRequest(with: breed?.image?.url)
         

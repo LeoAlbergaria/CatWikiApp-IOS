@@ -123,12 +123,6 @@
                                             <constraint firstItem="FIn-T7-yMQ" firstAttribute="top" secondItem="1MX-am-SQ4" secondAttribute="bottom" id="wG3-9q-i6D"/>
                                             <constraint firstAttribute="trailing" secondItem="iSJ-fX-TfK" secondAttribute="trailing" constant="20" id="znL-Zm-fM8"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="20"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -157,6 +151,7 @@
                         <outlet property="imageView" destination="8y1-Ni-jib" id="JGh-Ra-fpd"/>
                         <outlet property="nameLabel" destination="1MX-am-SQ4" id="0um-jQ-ILb"/>
                         <outlet property="temperamentLabel" destination="FIn-T7-yMQ" id="e0Y-jM-Q1F"/>
+                        <outlet property="textView" destination="iAn-XY-HRb" id="olx-ZG-I5A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uev-lO-1mo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
